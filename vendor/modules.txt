@@ -1,2 +1,8 @@
 # github.com/satori/go.uuid v1.2.0
 github.com/satori/go.uuid
+# github.com/tencentcloud/tencentcloud-sdk-go v3.0.233+incompatible
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/http
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/profile
+github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tmt/v20180321

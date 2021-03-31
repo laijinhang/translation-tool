@@ -14,15 +14,21 @@
 直接输出各个平台翻译的中文内容，提升效率、节省时间
 
 **已实现：**
-* 有道翻译
+* 接通有道翻译
+* 接通腾讯翻译君
 
-接入：
+接通有道翻译：
 1. [有道翻译官网申请AppKey和SecKey，点击直达](https://ai.youdao.com/doc.s#guide)
 2. 在api/youdao.go里，把AppKey和SecKey分别赋值给YouDaoAppKey，YouDaoSecKey
 3. 运行，输入要翻译的英文
 
+接通腾讯翻译君：
+1. [开通免费试用版，点击直达](https://fanyi.qq.com/translateapi)
+2. [到腾讯云控制台创建/获取SecretId和SecretKey，点击直达](https://console.cloud.tencent.com/cam/capi)
+3. 在api/tmt.go里，把SecretId和SecretKey分别赋值给TMTAppKey，TMTSecKey
+4. 运行，输入要翻译的英文
+
 **待实现：**
-* 腾讯翻译君Api
 * 金山词典Api
 * 百度翻译Api
 * 搜狗翻译Api

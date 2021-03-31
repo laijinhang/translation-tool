@@ -5,6 +5,7 @@ var names []string
 
 func init() {
 	register(GetYouDaoApi()) // 有道翻译
+	register(GetTMTApi())    // 腾讯翻译君
 }
 
 func GetApis() []Api {
