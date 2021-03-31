@@ -51,7 +51,7 @@ func (this *BaiDuApi) Translation(text string) string {
 		"sign":  sign,
 	}
 	var resp BaiDuResp
-	err := this.base.translation(data, &resp)
+	err := this.base.Post(data, &resp)
 	if err != nil {
 		fmt.Println(err)
 	}

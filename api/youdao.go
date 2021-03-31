@@ -60,7 +60,7 @@ func (this *YouDaoApi) Translation(text string) string {
 	}
 	//data['vocabId'] = "您的用户词表ID"
 	var resp YouDaoResp
-	err := this.base.translation(data, &resp)
+	err := this.base.Post(data, &resp)
 	if err != nil {
 		fmt.Println(err)
 	}
