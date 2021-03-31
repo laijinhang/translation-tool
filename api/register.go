@@ -6,6 +6,7 @@ var names []string
 func init() {
 	register(GetYouDaoApi()) // 有道翻译
 	register(GetTMTApi())    // 腾讯翻译君
+	register(GetBaiDuApi())  // 百度翻译
 }
 
 func GetApis() []Api {

@@ -16,6 +16,7 @@
 **已实现：**
 * 接通有道翻译
 * 接通腾讯翻译君
+* 接通百度翻译
 
 接通有道翻译：
 1. [有道翻译官网申请AppKey和SecKey，点击直达](https://ai.youdao.com/doc.s#guide)
@@ -28,8 +29,12 @@
 3. 在api/tmt.go里，把SecretId和SecretKey分别赋值给TMTAppKey，TMTSecKey
 4. 运行，输入要翻译的英文
 
+接通百度翻译：
+1. [获取百度翻译App ID和密钥，点击直达](http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer)
+2. 在api/baidu.go里，把App ID和密钥分别赋值给BaiDuAppKey，BaiDuSecKey
+3. 运行，输入要翻译的英文
+
 **待实现：**
 * 金山词典Api
-* 百度翻译Api
 * 搜狗翻译Api
 * 谷歌翻译Api
