@@ -8,6 +8,7 @@ func init() {
 	register(GetTMTApi())    // 腾讯翻译君
 	register(GetBaiDuApi())  // 百度翻译
 	register(GetGoogleApi()) // 谷歌翻译
+	register(GetSoGouApi())  // 搜狗翻译
 }
 
 func GetApis() []Api {

@@ -18,6 +18,7 @@
 * 接通腾讯翻译君
 * 接通百度翻译
 * 接通谷歌翻译
+* 接通搜狗翻译
 
 接通有道翻译：
 1. [有道翻译官网申请AppKey和SecKey，点击直达](https://ai.youdao.com/doc.s#guide)
@@ -35,6 +36,10 @@
 2. 在api/baidu.go里，把App ID和密钥分别赋值给BaiDuAppKey，BaiDuSecKey
 3. 运行，输入要翻译的英文
 
+接通搜狗翻译：
+1. [获取搜狗翻译 PID和Key，点击直达](https://deepi.sogou.com/registered/textcognitive)
+2. 在api/sogou.go里，把PID和Key分别赋值给SoGouAppKey，SoGouSecKey
+3. 运行，输入要翻译的英文
+
 **待实现：**
 * 金山词典Api
-* 搜狗翻译Api
