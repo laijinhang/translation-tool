@@ -40,6 +40,3 @@
 1. [获取搜狗翻译 PID和Key，点击直达](https://deepi.sogou.com/registered/textcognitive)
 2. 在api/sogou.go里，把PID和Key分别赋值给SoGouAppKey，SoGouSecKey
 3. 运行，输入要翻译的英文
-
-**待实现：**
-* 金山词典Api
