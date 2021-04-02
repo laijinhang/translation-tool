@@ -18,7 +18,7 @@ func main() {
 		fmt.Println("----------------------------------")
 		res := translation.Translation(text)
 		for i, _ := range res {
-			fmt.Printf("%s翻译结果>> %s\n", res[i].Name, res[i].Results)
+			fmt.Printf("%s翻译结果>> %s\n\n", res[i].Name, res[i].Results)
 		}
 		fmt.Println("----------------------------------")
 	}
